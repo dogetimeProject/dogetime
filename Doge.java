@@ -23,7 +23,8 @@ public class Doge extends JFrame
             JLabel picLabel = new JLabel(new ImageIcon(myPicture));
             add(picLabel);
         } catch (IOException ex) {
-            System.out.println("WOW NO MOON HERE");
+            System.out.println("WOW NO MOON HERE: Relax, is ok. Just place favourite doge picture " 
+                                + "in the same folder as this class and make sure it's called doge.jpg");
         }
         
         setDefaultCloseOperation(EXIT_ON_CLOSE);
